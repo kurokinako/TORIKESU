@@ -1,10 +1,4 @@
 #Greenfoot project file
-<<<<<<< HEAD
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
-=======
 class.L.image=L.png
 class.badsquare.image=badsquare.png
 class.badstick.image=badstick.png
@@ -15,11 +9,10 @@ class.square.image=square.png
 class.stic.image=stic.png
 class.tryangle.image=tryangle.png
 class.z.image=z.png
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
->>>>>>> 8fdf6fd7406278cf0321cd321e2dd75ba6f28b15
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
 height=585
 package.numDependencies=0
 package.numTargets=11
@@ -117,10 +110,5 @@ target9.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=169
-yPosition=193
-=======
-xPosition=926
-yPosition=111
->>>>>>> 8fdf6fd7406278cf0321cd321e2dd75ba6f28b15
+xPosition=578
+yPosition=110
