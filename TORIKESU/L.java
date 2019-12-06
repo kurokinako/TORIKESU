@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.util.TimerTask;
 /**
  * Write a description of class L here.
  * 
@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class L extends Actor
 {
     /**
-     * Act - do whatever the L wants to do. This method is called whenever
+     * Act - do whatever the badsquare wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
@@ -17,3 +17,4 @@ public class L extends Actor
         // Add your action code here.
     }    
 }
+
