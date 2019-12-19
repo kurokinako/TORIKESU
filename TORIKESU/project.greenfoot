@@ -1,6 +1,10 @@
 #Greenfoot project file
 class.L.image=L.png
+<<<<<<< Updated upstream
 class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB.png
+=======
+class.MyWorld.image=background.jpg
+>>>>>>> Stashed changes
 class.badsquare.image=badsquare.png
 class.badstick.image=badstick.png
 class.cross.image=cross.png
@@ -10,6 +14,7 @@ class.square.image=square.png
 class.stic.image=stic.png
 class.tryangle.image=tryangle.png
 class.z.image=z.png
+<<<<<<< Updated upstream
 editor.fx.0.height=739
 editor.fx.0.width=816
 <<<<<<< HEAD
@@ -21,6 +26,13 @@ editor.fx.0.x=-32000
 editor.fx.0.y=-32000
 height=911
 >>>>>>> 042cf50aa992f54c830e8f88e8ebca63aac44d94
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=754
+>>>>>>> Stashed changes
 package.numDependencies=0
 package.numTargets=11
 project.charset=UTF-8
@@ -115,6 +127,7 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< Updated upstream
 width=1303
 world.lastInstantiated=MyWorld
 <<<<<<< HEAD
@@ -124,3 +137,9 @@ yPosition=110
 xPosition=223
 yPosition=117
 >>>>>>> 042cf50aa992f54c830e8f88e8ebca63aac44d94
+=======
+width=1012
+world.lastInstantiated=MyWorld
+xPosition=909
+yPosition=8
+>>>>>>> Stashed changes
