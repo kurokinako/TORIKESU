@@ -2,7 +2,11 @@
 class.L.image=L.png
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB.png
+=======
+class.MyWorld.image=background.jpg
+>>>>>>> Stashed changes
 =======
 class.MyWorld.image=background.jpg
 >>>>>>> Stashed changes
@@ -38,11 +42,14 @@ editor.fx.0.x=0
 editor.fx.0.y=0
 height=754
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 editor.fx.0.x=510
 editor.fx.0.y=181
 height=905
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -157,6 +164,7 @@ version=3.0.0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 width=1303
 world.lastInstantiated=MyWorld
 <<<<<<< HEAD
@@ -177,6 +185,12 @@ width=1532
 world.lastInstantiated=MyWorld
 xPosition=392
 yPosition=50
+>>>>>>> Stashed changes
+=======
+width=1012
+world.lastInstantiated=MyWorld
+xPosition=909
+yPosition=8
 >>>>>>> Stashed changes
 =======
 width=1012
