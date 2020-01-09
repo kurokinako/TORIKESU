@@ -18,7 +18,7 @@ public class L extends Actor
        // Add your action code here.
        int x = getX();
        int y = getY();
-       if(y<350)
+       if(y<700)
        {
            setLocation( x,y+20 );
            Greenfoot.delay(50);
