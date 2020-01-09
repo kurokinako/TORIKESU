@@ -15,5 +15,12 @@ public class revL extends Actor
     public void act() 
     {
         // Add your action code here.
+       int x = getX();
+       int y = getY();
+       if(y<650)
+       {
+           setLocation( x,y+20 );
+           Greenfoot.delay(50);
+       }
     }    
 }
