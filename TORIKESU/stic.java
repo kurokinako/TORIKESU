@@ -14,6 +14,23 @@ public class stic extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        int x = getX();
+        int y = getY();
+        int z = 0;
+        if( Greenfoot.isKeyDown( "right" ) ){
+            setLocation( x+1,y );
+        }// Add your action code here.
+        if( Greenfoot.isKeyDown( "left" ) ){
+            setLocation( x-1,y );
+        }
+        if( Greenfoot.isKeyDown( "down" ) ){
+            setLocation( x,y+1 );
+        }// Add your action code here.
+        if( Greenfoot.isKeyDown( "a" ) ){
+            setRotation(z+90);
+        }
+        if( Greenfoot.isKeyDown( "d" ) ){
+            setRotation(z-90);
+        }
     }    
 }
