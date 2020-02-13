@@ -15,6 +15,7 @@ public class L extends Actor
      */
     public void act() 
     {
+<<<<<<< HEAD
          // Add your action code here.
       
       int x = getX();
@@ -42,3 +43,30 @@ public class L extends Actor
        */
     }
 }
+=======
+        int x = getX();
+        int y = getY();
+        if(y<650){
+           setLocation( x,y+20 );
+           Greenfoot.delay(50);
+           if( Greenfoot.isKeyDown( "left" ) ){
+               setLocation( x-50,y );
+           }
+           if( Greenfoot.isKeyDown( "right" ) ){
+                setLocation( x+50,y );
+           }
+           if( Greenfoot.isKeyDown( "down" ) ){
+               setLocation( x,y+50 );
+            }
+           if( Greenfoot.isKeyDown( "a" ) ){
+               turn(90);
+               Greenfoot.delay(5);
+           }
+           if( Greenfoot.isKeyDown( "d" ) ){
+               turn(-90);
+               Greenfoot.delay(5);
+           }
+        }
+    }    
+}
+>>>>>>> acd9be6df2087807ffe2dba48153b6ba35578109
