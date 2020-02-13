@@ -15,13 +15,30 @@ public class L extends Actor
      */
     public void act() 
     {
-       // Add your action code here.
-       int x = getX();
-       int y = getY();
-       if(y<650)
-       {
-           setLocation( x,y+20 );
-           Greenfoot.delay(50);
-       }
+         // Add your action code here.
+      
+      int x = getX();
+      int y = getY();
+      if(y<650)
+      {
+          setLocation( x,y+20 );
+          Greenfoot.delay(50);
+      }
+      /*   
+      Timer timer = new Timer(); 
+      TimerTask task = new TimerTask() 
+      {
+          public void run() 
+          {
+              int x = getX();
+              int y = getY();
+              if(y<650)
+              {
+                  setLocation( x,y+20 );
+              }
+          }
+      };
+      timer.scheduleAtFixedRate(task,1000,3000); 
+       */
     }
 }

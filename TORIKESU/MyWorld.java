@@ -17,7 +17,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-      
+        
         super(1280, 720, 1); 
         
         if(Greenfoot.isKeyDown("m")){
@@ -29,6 +29,9 @@ public class MyWorld extends World
     
     public void act()
     {
+        int w = getWidth();
+        int h = getHeight();
+    showText( "TORIKESU", w/2, h/2 ); 
     if( Greenfoot.isKeyDown( "Enter" ) ){
         World game = new WorldGame();
         Greenfoot.setWorld( game );
